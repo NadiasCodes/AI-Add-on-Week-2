@@ -1,5 +1,5 @@
 body {
-  background-color: #f5dfbb;
+  background-color: #463f3a;
   font-family: "Merriweather", serif;
 }
 
@@ -11,29 +11,45 @@ h1 {
   text-align: center;
 }
 
-.container {
-  margin: 120px auto;
-  max-width: 600px;
-  background-color: ;
-}
-
 header {
   margin-bottom: 30px;
 }
-
 form {
-  padding: 30px;
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+a {
+  color: #aecfdf;
+}
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  background-color: ;
+}
+.hint {
+  line-height: 1.5;
+  font-size: 13px;
+  margin-top: 5px;
+  opacity: 0.6;
+}
+.form-container {
+  padding: 99px;
   background-color: white;
   border-radius: 8px;
-  display: flex;
+
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 30px;
 }
-
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0, 5);
-  width: 80%;
+  width: 90%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
@@ -49,25 +65,30 @@ form {
   padding: 14px 24px;
 }
 
-.book-quotes {
+.quote {
   font-size: 16px;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   line-height: 24px;
   font-weight: 500;
   border-left: 3px solid black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
 }
-
-footer {
-  text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
+.hidden {
+  display: none;
 }
 
-a {
-  color: #aecfdf;
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
-
-
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
