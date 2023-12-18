@@ -1,18 +1,25 @@
 body {
-  background-color: #463f3a;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/700/original/janko-ferlic-sfL_QOnmy00-unsplash.jpg?1702923209");
   font-family: "Merriweather", serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #aecfdf;
+  color: Black;
   text-align: center;
+  
+  border-radius: 8px;
+  padding: 40px;
 }
 
 header {
   margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.6);;
 }
 form {
   display: flex;
@@ -22,6 +29,7 @@ footer {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.6);;
 }
 
 a {
@@ -30,7 +38,7 @@ a {
 .container {
   margin: 120px auto;
   max-width: 800px;
-  background-color: ;
+  
 }
 .hint {
   line-height: 1.5;
@@ -40,11 +48,14 @@ a {
 }
 .form-container {
   padding: 99px;
-  background-color: white;
+  background-color:"";
   border-radius: 8px;
-
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/083/original/gradient-peach-background-with-pink-shades.jpg?1701802511");
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 30px;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .instructions {
   padding: 16px;
@@ -67,17 +78,16 @@ a {
 
 .quote {
   font-size: 16px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 30px;
   line-height: 24px;
   font-weight: 500;
   border-left: 3px solid black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
+  line-height: 2;
 }
-.hidden {
-  display: none;
-}
+
 
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
