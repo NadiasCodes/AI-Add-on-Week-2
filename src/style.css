@@ -5,7 +5,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position:;
+    background-position:center;
 }
 
 h1 {
@@ -55,14 +55,7 @@ cursor: pointer;
 .container {
   margin: 70px auto;
   max-width: 900px;
-  
-  .icon{
-position: relative;
-bottom:100px;
-left:30px;
-
   }
-}
 .hint {
   line-height: 2;
   font-size: 13px;
@@ -109,6 +102,15 @@ background-color:rgba(255, 255, 255, 0.559);
   
 
 }
+
+.icon{
+ position: relative;
+  left:437px;
+  top:14px;
+  width:30px;
+  }
+
+
 
 .quote {
   font-size: 16px;
